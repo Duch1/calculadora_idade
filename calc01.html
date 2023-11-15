@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+
+    <link rel="stylesheet" type="text/css" href="calc01.css" media="screen">
+
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="base">
+                <div class="enter">
+                    <h4>Qual sua idade?</h4>
+            </div>
+        <div class="block">
+            <p class="title">Dia</p>
+            <input type="text" name="date" id="dia" placeholder="dd"
+            required="required" minlength="1" maxlength="2" />
+        </div>
+        <div class="block">
+            <p class="title">Mês</p>
+            <input type="text" name="month" id="mes" placeholder="mm"
+            required="required" minlength="1" maxlength="2" />
+        </div>
+        <div class="block">
+            <p class="title">Ano</p>
+            <input type="text" name="year" id="ano" placeholder="aa" 
+            required="required" minlength="4"
+            maxlength="4" />
+        </div>
+        </div>
+        <div class="base">
+            <div class="enter">
+                <input type="button" name="submit" value="Enviar"
+                onclick="age()" />
+            </div>
+        </div>
+        <div id="age"></div>
+        </form>
+    </div>
+    <script src="calc01.js">
+        
+    </script>
+</body>
+</html>
