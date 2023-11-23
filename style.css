@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #9b9b9b;
+    background: linear-gradient(to right, #FF0000, #FFFF00);
     font-size: 15px;
     line-height: 1.5;
     padding: 0;
@@ -13,7 +13,7 @@ body{
     width: 520px;
     height: auto;
     margin: 100px auto;
-    background-color: black;
+    background-color: #C0C0C0;
     border-radius: 25px;
 }
 .base{
@@ -35,10 +35,10 @@ body{
     font-family: sans-serif;
     font-weight: normal;
     margin-top: 0px;
-    box-shadow: 0px 2px #dd3737;
-    background: rgb(2, 2, 2);
+    box-shadow: 0px 2px #000000;
+    background: #C0C0C0;
     font-size: 34px;
-    color: red;
+    color: #000000;
     border-radius: 40px;
 }
 .title{
@@ -49,7 +49,7 @@ body{
     line-height: 0.5;
     letter-spacing: 0.5px;
     word-spacing: 2.7px;
-    color: #f10d0d;
+    color: #000000;
     margin-left: 2.5rem;
 }
 input[type=text] {
@@ -57,16 +57,16 @@ input[type=text] {
     margin: auto;
     outline: none;
     min-height: 50px;
-    border: 2px solid #d01010;
+    border: 2px solid #000000;
     padding: 12px;
     background-color: #f7f7f7;
     border-radius: 20px;
-    color: #d01010;
+    color: #000000;
     font-size: 17px;
     text-align: center;
 }
 input[type=text]:focus{
-    background-color: #7c7c7c;
+    background-color: #DCDCDC;
     border: 2px solid rgb(81, 255, 0);
     outline: none;
 }
@@ -77,14 +77,14 @@ input[type=button] {
     outline: none;
     border: none;
     border-radius: 20px;
-    background-color: #b60707;
-    color: #000000;
+    background-color: #000000;
+    color: #fff;
     padding: 14px 16px;
     text-align: center;
     font-size: 16px;
 }
 input[type=button]:hover{
-    background-color: rgb(81, 255, 0);
+    background-color: #008000;
 }
 #age{
     display: block;
@@ -93,10 +93,11 @@ input[type=button]:hover{
     padding: 10px;
     padding-bottom: 20px;
     overflow: hidden;
+    text-align: center;
     font-family: verdana;
     font-size: 23px;
     font-weight: normal;
     line-height: 1.5;
     word-spacing: 2.7px;
-    color: rgb(254, 4, 4);
+    color: #000000;
 }   
